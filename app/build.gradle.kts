@@ -87,8 +87,11 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
 
     //Room
+    //noinspection GradleDependency
     implementation ("androidx.room:room-runtime:2.4.0")
+    //noinspection GradleDependency
     ksp ("androidx.room:room-compiler:2.4.0")
+    //noinspection GradleDependency
     implementation ("androidx.room:room-ktx:2.4.0")
 
 
